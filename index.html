@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - HTML Drag and Drop API - Example 1</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="layout">
+<section class="draggable-elements">
+    <img src="img1.png" class="draggable" draggable="true"  id="img1">
+
+    <img src="img2.png" class="draggable" draggable="true"  id="img2">
+    <img src="img3.png" class="draggable" draggable="true"  id="img3">
+    <img src="img4.png" class="draggable" draggable="true"  id="img4">
+    <img src="img5.png" class="draggable" draggable="true"  id="img5">
+  </section>
+  <section class="droppable-elements">
+    <div class="droppable" data-draggable-id="img3"><span>3DComments</span></div>
+    <div class="droppable" data-draggable-id="img2"><span>3DDrive</span></div>
+    <div class="droppable" data-draggable-id="img1"><span>3DSwym</span></div>
+    <div class="droppable" data-draggable-id="img4"><span>3DMessage</span></div>
+    <div class="droppable" data-draggable-id="img5"><span>3DNotification</span></div>
+
+  </section>
+</div>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
