@@ -9,6 +9,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   background-image: url('bg.jpg');
   background-repeat: no-repeat;
+  background-size: auto;
   color: #111;
 }
 .layout {
